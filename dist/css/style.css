@@ -1221,3 +1221,37 @@ section {
 .overlay .popup-form__input:focus:-ms-input-placeholder {
   color: transparent;
 }
+@media screen and (max-width: 767px) {
+  .overlay .popup {
+    width: 80%;
+    top: 50px;
+    text-align: center;
+  }
+
+  .btn-modal {
+    width: 100%;
+    margin: 30px 0 0 0;
+    font-size: 14px;
+  }
+
+  .overlay .popup-form__input {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+  .btn-modal {
+    font-size: 13px;
+    padding: 0;
+  }
+
+  .overlay .popup-form {
+    padding: 25px
+  }
+
+  .overlay .popup-title {
+    line-height: 36px;
+    font-size: 18px;
+  }
+}
